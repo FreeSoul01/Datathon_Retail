@@ -6,7 +6,8 @@ They want to view metrics from both operations and marketing perspectives and se
 
 This Datathon is your opportunity to delve into Modecraft's comprehensive data, uncover valuable insights, and develop innovative data-driven solutions that can propel their business to new heights.
 
-Tasks
+## **Tasks**
+
 Your task is to answer one or more of the following questions from the three categories below or any question that sparks curiosity in you and your team regarding the dataset: 
 
 ### **Machine Learning Model**
@@ -95,7 +96,7 @@ Your task is to answer one or more of the following questions from the three cat
 
 - **Any other question you can think of!**
 
-### **Download the Dataset**
+## **Download the Dataset**
 
 Download the Dataset here: 
 
@@ -135,4 +136,6 @@ The dataset provided contains the following columns:
 
 - Quarter
 
-- Product Name 
+- Product Name
+
+**We also recommend you get rid of dirty data in the dataset and blank rows**
