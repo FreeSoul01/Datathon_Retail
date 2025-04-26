@@ -12,26 +12,43 @@ Tasks
 Your task is to answer one or more of the following questions from the three categories below or any question that sparks curiosity in you and your team regarding the dataset: 
 
 Machine Learning Model
+
 For a specific product (each one has a unique stock code) predict: 
+
 Total Quantity it will sell in the next 3 months
+
 Total Revenue it will earn in the next 3 months
+
 For the store as a whole predict: 
+
 Total Revenue it will earn in the next 3 months
+
 For a specific country predict: 
+
 Total Revenue it will earn in the next 3 months
 
 Data Analytics and Data Visualization
+
 The questions below can be attempted by both data analysis and data visualization members
+
 Is there any seasonality in purchases for certain products? 
+
 Which products have seen a significant increase or decrease in quantity ordered over the years? 
+
 What trends do we notice in the basket size (total items in one receipt)? 
+
 What trends do you notice for the website with respect to time?
+
 What are the peak sales periods for the business?
 
 Create a way to see a Monthly Analysis Report for a selected month and year that displays
+
 Products that sold the most
+
 Products that sold the least
+
 Products that generated the most revenue
+
 Products that generated the least revenue
 
 Customers who bought the most
