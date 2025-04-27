@@ -6,65 +6,59 @@ They want to view metrics from both operations and marketing perspectives and se
 
 This Datathon is your opportunity to delve into Modecraft's comprehensive data, uncover valuable insights, and develop innovative data-driven solutions that can propel their business to new heights.
 
-## **Tasks**
+## **Dataset Overview**
 
-Your task is to answer one or more of the following questions from the three categories below or any question that sparks curiosity in you and your team regarding the dataset: 
+Download the Dataset here: 
+
+https://docs.google.com/spreadsheets/d/14JpdZtBkG8mJtfRjrk01R-sQ1WPGgLJXKzZThHx-Zi8/edit?usp=sharing 
+
+### **Dataset Columns**
+
+The dataset provided contains the following columns:
+
+- InvoiceNo (Unique Invoice ID)
+
+- StockCode (Unique Product ID)
+
+- Description (Product Name)
+
+- Quantity (Total Quantity of Product bought in that invoice)
+
+- InvoiceDate (Date and Time at which invoice was created)
+
+- UnitPrice (Price of One Unit of that Product - in UK Pounds)
+
+- CustomerID (Unique Customer ID)
+
+- Country (Country from which order came)
+
+## **Data Analytics and Data Visualization**
+
+### Seasonality Trends Analysis
+  
+![image](https://github.com/user-attachments/assets/29d59c79-b785-4180-a066-2e7322955cdf)
+
+    The WORLD WAR 2 GLIDERS ASSTD DESIGNS has a strong seasonality pattern which cycles every 6 months. 
+    There appear to be two distinct peaks around April and October.
 
 
-The Channel Islands are a group of islands located in the English Channel, just off the coast of Normandy, France. They are not part of the United Kingdom itself, but they are Crown Dependencies. We can certainly take this as a sample, to see if it is something interesting about the pattern.
-### **Machine Learning Model**
+![image](https://github.com/user-attachments/assets/a489ff59-70fc-46d9-9d23-ec2687e81f81)
 
-- **For a specific product (each one has a unique stock code) predict:**
-    We chose REGENCY CAKESTAND 3 TIER, which generates the most revenue on Channel Island
+    The quantity sold of REGENCY CAKESTAND 3 TIER has a obvious downward trend over the years.
 
-    Quantity RMSE ≈ 348
+
+![image](https://github.com/user-attachments/assets/d12beceb-04d0-424d-ba19-3a6e848c1db6)
+
+    - December spike likely driven by holiday season sales (e.g., Christmas shopping).
+    - January peak could be clearance sales or bulk buying after holidays.
+    - Summer (May–July) tends to have smaller basket sizes, potentially due to fewer shopping holidays or events.
     
-    Revenue RMSE ≈ 4,201
-    
-    Prediction for Jan–Mar 2012:
-    
-    Total predicted quantity: ≈ 3,077 units
-    
-    Total predicted revenue: ≈ 38,599 GBP
-    The top product’s sales are fairly consistent month-to-month, but there’s some natural noise. Lag-based regression can reasonably forecast short-term sales for top items, which could help inventory and marketing planning.
+![image](https://github.com/user-attachments/assets/1a675c99-76fc-41be-afc9-e726d0bd3ca8)
 
-- **For the store as a whole predict:**
-
-    RMSE across folds: 972,702 | 376,376 | 760,381
-    
-    Average CV RMSE ≈ 703,153, meaning the model’s typical error is around 700K in revenue prediction.
-    
-    Prediction for Jan–Mar 2012:
-    
-    Total predicted store revenue: ≈ 3.37 million.
-    The model captured general store revenue trends reasonably well. Some fluctuations exist (since retail has seasonality, promotions, holidays), but the        model still gives useful ballpark forecasts.
-- **For a specific country predict:**
-
-
-  - We chose Channel Islands
-
-    RMSE across folds: 253,118 | 321,810 | 618,233
-    
-    Average CV RMSE ≈ 397,720, much lower than store-wide because UK is the majority market and more stable.
-    
-    Prediction for Jan–Mar 2012:
-    
-    Total predicted UK revenue: ≈ 3.58 million.
-.   Predicting UK alone is even more stable and reliable compared to predicting the global store. UK-specific trends probably drive overall revenue       patterns.
-### **Data Analytics and Data Visualization**
-
-- **The questions below can be attempted by both data analysis and data visualization members**
-
-
-  - Is there any seasonality in purchases for certain products? 
-
-  - Which products have seen a significant increase or decrease in quantity ordered over the years? 
-
-  - What trends do we notice in the basket size (total items in one receipt)? 
-
-  - What trends do you notice for the website with respect to time?
-
-  - What are the peak sales periods for the business?
+    - Peak in November highlights the importance of holiday-driven sales.
+    - The September to November build-up suggests early holiday shopping behavior or strategic campaigns leading up to year-end.
+    - Consistent low points in May and early-year months indicate potential off-seasons.
+  
  <img width="802" alt="image" src="https://github.com/user-attachments/assets/1944127b-4ddc-4d21-a176-5a923b17c5b9" />
 
       Seasonal Revenue Trends by Hemisphere
@@ -99,102 +93,136 @@ The Channel Islands are a group of islands located in the English Channel, just 
       
       Southern Hemisphere should focus on mid-year promotions around June-August.
 
-- **Create a way to see a Monthly Analysis Report for a selected month and year that displays**
+### **Monthly Analysis Report (December 2010)**
 
   - Products that sold the most
 
+|StockCode|Description|Quantity|
+|---------|-----------|--------|
+|84077    |WORLD WAR 2 GLIDERS ASSTD DESIGNS|     5195|
+|21212    |PACK OF 72 RETROSPOT CAKE CASES|       4106|
+|85123A   |WHITE HANGING HEART T-LIGHT HOLDER|    3752|
+|22834    |HAND WARMER BABUSHKA DESIGN|           3476|
+|22197    |SMALL POPCORN HOLDER|                  2737|
+
   - Products that sold the least
+
+|StockCode|     Description|Quantity|
+|---------|-----------|--------|                      
+|gift_0001_50|  Dotcomgiftshop Gift Voucher 50.00|    1|
+|21196|         ROUND WHITE CONFETTI IN TUBE |         1|
+|90142D|        MOP PENDANT SHELL NECKLACE |           1|
+|90144|         SILVER DROP EARRINGS WITH FLOWER |     1|
+|84816|         DANISH ROSE BEDSIDE CABINET |          1|
 
   - Products that generated the most revenue
 
+|StockCode|  Description| Revenue|  
+|---------|-----------|--------|    
+|22423|      REGENCY CAKESTAND 3 TIER|              27694.76|
+|DOT |       DOTCOM POSTAGE     |                   24671.19|
+|85123A  |   WHITE HANGING HEART T-LIGHT HOLDER |   10435.36|
+|84029E  |   RED WOOLLY HOTTIE WHITE HEART|       9291.73|
+|22086  |    PAPER CHAIN KIT 50'S CHRISTMAS    |     9208.10|
+
   - Products that generated the least revenue
 
-  - Customers who bought the most
-
-  - Most popular days of the week
+|StockCode | Description  | Revenue|  
+|---------|-----------|---------| 
+|71215    |  METAL BASE FOR CANDLES       |       0.42|
+|79151B  |   SILICON CUBE 25W, BLUE |             0.42|
+|79149B  |   SILICON STAR BULB  BLUE |            0.42|
+|47422  |    ASSORTED MONKEY SUCTION CUP HOOK |   0.42|
+|10123C  |   HEARTS WRAPPING TAPE      |          0.65|
 
   - Most popular times for purchase during the week
 
-  - In what ways can the store can increase revenue?
+|TimeOfDay|Orders|
+|---------|--------|
+|16:57:00  |  721|
+|14:09:00  |  701|
+|14:25:00  |  692|
+|14:41:00  |  664|
+|14:59:00  |  646|
 
-  - Regions that earned the most money
+    Most purchases happened in the afternoon.
 
-- **Create a way to see a report for a specific product**
+### **Specific Product Analysis**
 
-  - Quantity Sold by Country
+We chose to analysis WORLD WAR 2 GLIDERS ASSTD DESIGNS because it had the most sale during the years.
 
-  - Quantity Sold by Month
+- Quantity Sold by Country
+ 
+![image](https://github.com/user-attachments/assets/579a17fb-1603-42f2-acf2-40a0958ebc5a)
 
-  - Quantity Sold by Time of Day
+- Quantity Sold by Month
 
-  - Quantity Sold by Day of Week
+![image](https://github.com/user-attachments/assets/b7feb235-aca5-4de0-a409-0babc7ab18b9)
 
-  - Total Quantity Sold 
+- Quantity Sold by Day of Week
 
-  - Total Revenue Generated
+![image](https://github.com/user-attachments/assets/128bdc55-ae2c-458b-97da-ef2080064f5f)
+
+- Total Quantity Sold: 49756
+
+- Total Revenue Generated: 12639.88
+
+### **Geographical Analysis:**
+
+![image](https://github.com/user-attachments/assets/27d3d301-f0fc-47a0-9433-a8cac495d34e)
+
+    United Kingdom dominates the total sale (85%), with much smaller contributions from other countries.
+
+### **Insights:**
 
 - **Customer Insights:**
 
-  - Are there any customer behavioral patterns you notice
+    - **Holiday-Driven Buying Spikes:**
+        - Revenue and basket sizes peak in November, suggesting holiday shopping behavior (likely Christmas or end-of-year gifting).
+        - Customers buy more items per receipt during this period, contributing to higher overall basket value.
 
-- **Geographical Analysis:**
+    - **Post-Holiday Drop:**
+        - Revenue and average basket sizes drop significantly after the holidays (January-February).
+        - Customers likely reduce spending after heavy end-of-year purchases.
 
-  - Visualize the distribution of sales across countries
+    - **Mid-Year Stability with Occasional Upticks:**
+        - Revenue and basket sizes stabilize mid-year, with moderate increases in some months (likely linked to summer events or school breaks).
+        - Certain products (e.g., lunch boxes, home décor) show cyclical demand.
 
-  - Identify top-performing regions and potential areas for expansion
-
-**We recommend this question only be attempted by those also pursuing the Data Analysis Track**
-
-  - Create a metric that ranks the products based on their performance. This metric should enable the company to know the product's health and whether they should focus on selling a product more or not. 
-
-    - When creating your metric think of different formula you can create for the same.
-
-    - Be sure to describe the process behind creating your metric
-
-    - Rank the products in the end based on your metric
-
-- **Any other question you can think of!**
-
-## **Download the Dataset**
-
-Download the Dataset here: 
-
-https://docs.google.com/spreadsheets/d/14JpdZtBkG8mJtfRjrk01R-sQ1WPGgLJXKzZThHx-Zi8/edit?usp=sharing 
-
-### **Dataset Columns**
-
-The dataset provided contains the following columns:
-
-- InvoiceNo (Unique Invoice ID)
-
-- StockCode (Unique Product ID)
-
-- Description (Product Name)
-
-- Quantity (Total Quantity of Product bought in that invoice)
-
-- InvoiceDate (Date and Time at which invoice was created)
-
-- UnitPrice (Price of One Unit of that Product - in UK Pounds)
-
-- CustomerID (Unique Customer ID)
-
-- Country (Country from which order came)
+- **Recommendation**
 
 
 
-**We recommend you also create additional columns such as:**
+## **Machine Learning Model**
 
-- Revenue (Quantity x Unit Price)
+- **For a specific product (each one has a unique stock code) predict:**
 
-- Day of Week
+    We chose WORLD WAR 2 GLIDERS ASSTD DESIGNS since it had the most sale and has a strong seasonality pattern. We used the exponancial smoothing model the predict futue sales and the predictions matches the yearly sales pattern of the product.
 
-- Time of Day
+    The predicted next 3 months sale volumns are 1168 units, 2941 units, and 3330 units, with a total quantity of 7439 units and total revenue of about 2732.32.
 
-- Weekday or Weekend
+![image](https://github.com/user-attachments/assets/67bcf5b5-4092-475e-ae9b-449ee83d1581)
 
-- Quarter
+- **For the store as a whole predict:**
 
-- Product Name
+    RMSE across folds: 972,702 | 376,376 | 760,381
+    
+    Average CV RMSE ≈ 703,153, meaning the model’s typical error is around 700K in revenue prediction.
+    
+    Prediction for Jan–Mar 2012:
+    
+    Total predicted store revenue: ≈ 3.37 million.
+    The model captured general store revenue trends reasonably well. Some fluctuations exist (since retail has seasonality, promotions, holidays), but the model still gives useful ballpark forecasts.
+  
+- **For a specific country predict:**
 
-**We also recommend you get rid of dirty data in the dataset and blank rows**
+  - We chose Channel Islands
+
+    RMSE across folds: 253,118 | 321,810 | 618,233
+    
+    Average CV RMSE ≈ 397,720, much lower than store-wide because UK is the majority market and more stable.
+    
+    Prediction for Jan–Mar 2012:
+    
+    Total predicted UK revenue: ≈ 3.58 million.
+.   Predicting UK alone is even more stable and reliable compared to predicting the global store. UK-specific trends probably drive overall revenue       patterns.
