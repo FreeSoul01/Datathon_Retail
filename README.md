@@ -196,7 +196,7 @@ We chose to analysis WORLD WAR 2 GLIDERS ASSTD DESIGNS because it had the most s
 
 - **For a specific product (each one has a unique stock code) predict:**
 
-    We chose WORLD WAR 2 GLIDERS ASSTD DESIGNS since it had the most sale and has a strong seasonality pattern. We used the exponancial smoothing model the predict futue sales and the predictions matches the yearly sales pattern of the product.
+    We chose WORLD WAR 2 GLIDERS ASSTD DESIGNS since it had the most sale and has a strong seasonality pattern. We used the exponancial smoothing model the predict futue sales. As we can see in the plot, the predictions roughly matche the yearly sales pattern of the product.
 
     The predicted next 3 months sale volumns are 1168 units, 2941 units, and 3330 units, with a total quantity of 7439 units and total revenue of about 2732.32.
 
