@@ -10,14 +10,12 @@ This Datathon is your opportunity to delve into Modecraft's comprehensive data, 
 
 Your task is to answer one or more of the following questions from the three categories below or any question that sparks curiosity in you and your team regarding the dataset: 
 
+
+The Channel Islands are a group of islands located in the English Channel, just off the coast of Normandy, France. They are not part of the United Kingdom itself, but they are Crown Dependencies. We can certainly take this as a sample, to see if it is something interesting about the pattern.
 ### **Machine Learning Model**
 
 - **For a specific product (each one has a unique stock code) predict:**
-
-  - Total Quantity it will sell in the next 3 months
-
-  - Total Revenue it will earn in the next 3 months
-    Cross-Validation Performance:
+    We chose REGENCY CAKESTAND 3 TIER, which generates the most revenue on Channel Island
 
     Quantity RMSE ≈ 348
     
@@ -32,9 +30,6 @@ Your task is to answer one or more of the following questions from the three cat
 
 - **For the store as a whole predict:**
 
-  - Total Revenue it will earn in the next 3 months
-  - Cross-Validation Performance:
-
     RMSE across folds: 972,702 | 376,376 | 760,381
     
     Average CV RMSE ≈ 703,153, meaning the model’s typical error is around 700K in revenue prediction.
@@ -45,8 +40,8 @@ Your task is to answer one or more of the following questions from the three cat
     The model captured general store revenue trends reasonably well. Some fluctuations exist (since retail has seasonality, promotions, holidays), but the        model still gives useful ballpark forecasts.
 - **For a specific country predict:**
 
-  - Total Revenue it will earn in the next 3 months
-  - Cross-Validation Performance:
+
+  - We chose Channel Islands
 
     RMSE across folds: 253,118 | 321,810 | 618,233
     
@@ -60,6 +55,7 @@ Your task is to answer one or more of the following questions from the three cat
 
 - **The questions below can be attempted by both data analysis and data visualization members**
 
+
   - Is there any seasonality in purchases for certain products? 
 
   - Which products have seen a significant increase or decrease in quantity ordered over the years? 
@@ -69,6 +65,39 @@ Your task is to answer one or more of the following questions from the three cat
   - What trends do you notice for the website with respect to time?
 
   - What are the peak sales periods for the business?
+ <img width="802" alt="image" src="https://github.com/user-attachments/assets/1944127b-4ddc-4d21-a176-5a923b17c5b9" />
+
+      Seasonal Revenue Trends by Hemisphere
+      We separated countries into Northern Hemisphere and Southern Hemisphere groups to investigate the role of seasons in customer spending.
+      
+      Northern Hemisphere Countries included:
+      United Kingdom, France, Germany, USA, etc.
+      
+      Southern Hemisphere Countries included:
+      Australia, Brazil, South Africa (RSA), etc.
+      
+      Unspecified countries were dropped to avoid noise in the analysis.
+      
+      Two separate graphs were generated due to significant scale differences between North and South revenues.
+      
+      Observations:
+      Northern Hemisphere
+      Sales peak around September to November, corresponding with major holiday seasons (Halloween, Black Friday, Christmas).
+      
+      Lowest activity is observed in early months (February–March), likely post-holiday slowdowns.
+      
+      Southern Hemisphere
+      Sales peak around June to August, corresponding to their winter season (mid-year shopping and holidays).
+      
+      Very low sales during December, indicating that Christmas does not drive as significant sales boosts compared to the Northern Hemisphere.
+      
+      Seasonality plays a major role in revenue cycles, but its effects are hemisphere-dependent.
+      
+      Marketing campaigns and inventory strategies must be localized:
+      
+      Northern Hemisphere should emphasize end-of-year holiday promotions.
+      
+      Southern Hemisphere should focus on mid-year promotions around June-August.
 
 - **Create a way to see a Monthly Analysis Report for a selected month and year that displays**
 
