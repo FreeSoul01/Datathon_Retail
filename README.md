@@ -223,5 +223,5 @@ We chose to analysis WORLD WAR 2 GLIDERS ASSTD DESIGNS because it had the most s
     
     Prediction for Jan–Mar 2012:
     
-    Total predicted UK revenue: ≈ 3.58 million.
-.   Predicting UK alone is even more stable and reliable compared to predicting the global store. UK-specific trends probably drive overall revenue       patterns.
+    Total predicted Channel Islands revenue: ≈ 3.58 million.
+.   Predicting this place alone is even more stable and reliable compared to predicting the global store. It drives overall revenue patterns.
