@@ -55,7 +55,7 @@ Your task is to answer one or more of the following questions from the three cat
     Prediction for Jan–Mar 2012:
     
     Total predicted UK revenue: ≈ 3.58 million.
-
+.   Predicting UK alone is even more stable and reliable compared to predicting the global store. UK-specific trends probably drive overall revenue       patterns.
 ### **Data Analytics and Data Visualization**
 
 - **The questions below can be attempted by both data analysis and data visualization members**
