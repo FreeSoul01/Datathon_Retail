@@ -173,15 +173,12 @@ We chose to analysis WORLD WAR 2 GLIDERS ASSTD DESIGNS because it had the most s
 
 - **Total Revenue Generated**: 12639.88
 
-- **Quantity Sold by Country**
  
 ![image](https://github.com/user-attachments/assets/579a17fb-1603-42f2-acf2-40a0958ebc5a)
 
-- **Quantity Sold by Month**
 
 ![image](https://github.com/user-attachments/assets/b7feb235-aca5-4de0-a409-0babc7ab18b9)
 
-- **Quantity Sold by Day of Week**
 
 ![image](https://github.com/user-attachments/assets/71d2d4e0-00e7-43ff-87f9-faffebe54724)
 
