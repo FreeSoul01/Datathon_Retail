@@ -13,10 +13,7 @@ Your task is to answer one or more of the following questions from the three cat
 ### **Machine Learning Model**
 
 - **For a specific product (each one has a unique stock code) predict:**
-
-  - Total Quantity it will sell in the next 3 months
-
-  - Total Revenue it will earn in the next 3 months
+    We chose REGENCY CAKESTAND 3 TIER, which generates the most revenue on Channel Island
     Cross-Validation Performance:
 
     Quantity RMSE ≈ 348
@@ -47,6 +44,7 @@ Your task is to answer one or more of the following questions from the three cat
 
   - Total Revenue it will earn in the next 3 months
   - Cross-Validation Performance:
+  - We chose channel island
 
     RMSE across folds: 253,118 | 321,810 | 618,233
     
