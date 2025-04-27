@@ -10,11 +10,12 @@ This Datathon is your opportunity to delve into Modecraft's comprehensive data, 
 
 Your task is to answer one or more of the following questions from the three categories below or any question that sparks curiosity in you and your team regarding the dataset: 
 
+
+The Channel Islands are a group of islands located in the English Channel, just off the coast of Normandy, France. They are not part of the United Kingdom itself, but they are Crown Dependencies. We can certainly take this as a sample, to see if it is something interesting about the pattern.
 ### **Machine Learning Model**
 
 - **For a specific product (each one has a unique stock code) predict:**
     We chose REGENCY CAKESTAND 3 TIER, which generates the most revenue on Channel Island
-    Cross-Validation Performance:
 
     Quantity RMSE ≈ 348
     
@@ -29,9 +30,6 @@ Your task is to answer one or more of the following questions from the three cat
 
 - **For the store as a whole predict:**
 
-  - Total Revenue it will earn in the next 3 months
-  - Cross-Validation Performance:
-
     RMSE across folds: 972,702 | 376,376 | 760,381
     
     Average CV RMSE ≈ 703,153, meaning the model’s typical error is around 700K in revenue prediction.
@@ -42,9 +40,8 @@ Your task is to answer one or more of the following questions from the three cat
     The model captured general store revenue trends reasonably well. Some fluctuations exist (since retail has seasonality, promotions, holidays), but the        model still gives useful ballpark forecasts.
 - **For a specific country predict:**
 
-  - Total Revenue it will earn in the next 3 months
-  - Cross-Validation Performance:
-  - We chose channel island
+
+  - We chose Channel Islands
 
     RMSE across folds: 253,118 | 321,810 | 618,233
     
@@ -57,7 +54,7 @@ Your task is to answer one or more of the following questions from the three cat
 ### **Data Analytics and Data Visualization**
 
 - **The questions below can be attempted by both data analysis and data visualization members**
-- 
+
 
   - Is there any seasonality in purchases for certain products? 
 
