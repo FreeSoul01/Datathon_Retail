@@ -8,13 +8,11 @@ This Datathon is your opportunity to delve into Modecraft's comprehensive data, 
 
 ## **Dataset Overview**
 
-Download the Dataset here: 
+**Download the Dataset here:**
 
 https://docs.google.com/spreadsheets/d/14JpdZtBkG8mJtfRjrk01R-sQ1WPGgLJXKzZThHx-Zi8/edit?usp=sharing 
 
-### **Dataset Columns**
-
-The dataset provided contains the following columns:
+**The dataset provided contains the following columns:**
 
 - InvoiceNo (Unique Invoice ID)
 
@@ -151,6 +149,10 @@ The dataset provided contains the following columns:
 
 We chose to analysis WORLD WAR 2 GLIDERS ASSTD DESIGNS because it had the most sale during the years.
 
+- Total Quantity Sold: 49756
+
+- Total Revenue Generated: 12639.88
+
 - Quantity Sold by Country
  
 ![image](https://github.com/user-attachments/assets/579a17fb-1603-42f2-acf2-40a0958ebc5a)
@@ -161,11 +163,8 @@ We chose to analysis WORLD WAR 2 GLIDERS ASSTD DESIGNS because it had the most s
 
 - Quantity Sold by Day of Week
 
-![image](https://github.com/user-attachments/assets/128bdc55-ae2c-458b-97da-ef2080064f5f)
+![image](https://github.com/user-attachments/assets/71d2d4e0-00e7-43ff-87f9-faffebe54724)
 
-- Total Quantity Sold: 49756
-
-- Total Revenue Generated: 12639.88
 
 ### **Geographical Analysis:**
 
