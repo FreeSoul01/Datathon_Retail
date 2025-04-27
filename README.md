@@ -1,4 +1,4 @@
-<img width="802" alt="image" src="https://github.com/user-attachments/assets/f41b5af3-b00e-4dc1-b8cc-c88405d26d97" />## **Retail: Accelerating the Sales of the Modecraft Ecommerce Store**
+## **Retail: Accelerating the Sales of the Modecraft Ecommerce Store**
 
 Modecraft (an anonymized real-world company) is an ecommerce store offering a wide range of household items such as mugs, cabinets, lanterns, etc. They have collected processed over 500,000  orders for a diverse global clientele as a business and have now hired you as a consultant to review their data and provide them with business recommendations.
 
@@ -59,6 +59,7 @@ Your task is to answer one or more of the following questions from the three cat
 ### **Data Analytics and Data Visualization**
 
 - **The questions below can be attempted by both data analysis and data visualization members**
+- 
 
   - Is there any seasonality in purchases for certain products? 
 
