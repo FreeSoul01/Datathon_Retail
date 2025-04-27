@@ -17,14 +17,44 @@ Your task is to answer one or more of the following questions from the three cat
   - Total Quantity it will sell in the next 3 months
 
   - Total Revenue it will earn in the next 3 months
+    Cross-Validation Performance:
+
+    Quantity RMSE ≈ 348
+    
+    Revenue RMSE ≈ 4,201
+    
+    Prediction for Jan–Mar 2012:
+    
+    Total predicted quantity: ≈ 3,077 units
+    
+    Total predicted revenue: ≈ 38,599 GBP
+    The top product’s sales are fairly consistent month-to-month, but there’s some natural noise. Lag-based regression can reasonably forecast short-term sales for top items, which could help inventory and marketing planning.
 
 - **For the store as a whole predict:**
 
   - Total Revenue it will earn in the next 3 months
+  - Cross-Validation Performance:
 
+    RMSE across folds: 972,702 | 376,376 | 760,381
+    
+    Average CV RMSE ≈ 703,153, meaning the model’s typical error is around 700K in revenue prediction.
+    
+    Prediction for Jan–Mar 2012:
+    
+    Total predicted store revenue: ≈ 3.37 million.
+    The model captured general store revenue trends reasonably well. Some fluctuations exist (since retail has seasonality, promotions, holidays), but the        model still gives useful ballpark forecasts.
 - **For a specific country predict:**
 
   - Total Revenue it will earn in the next 3 months
+  - Cross-Validation Performance:
+
+    RMSE across folds: 253,118 | 321,810 | 618,233
+    
+    Average CV RMSE ≈ 397,720, much lower than store-wide because UK is the majority market and more stable.
+    
+    Prediction for Jan–Mar 2012:
+    
+    Total predicted UK revenue: ≈ 3.58 million.
 
 ### **Data Analytics and Data Visualization**
 
