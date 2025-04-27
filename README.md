@@ -93,7 +93,7 @@ https://docs.google.com/spreadsheets/d/14JpdZtBkG8mJtfRjrk01R-sQ1WPGgLJXKzZThHx-
 
 ### **Monthly Analysis Report (December 2010)**
 
-  - Products that sold the most
+  - **Products that sold the most**
 
 |StockCode|Description|Quantity|
 |---------|-----------|--------|
@@ -103,7 +103,7 @@ https://docs.google.com/spreadsheets/d/14JpdZtBkG8mJtfRjrk01R-sQ1WPGgLJXKzZThHx-
 |22834    |HAND WARMER BABUSHKA DESIGN|           3476|
 |22197    |SMALL POPCORN HOLDER|                  2737|
 
-  - Products that sold the least
+  - **Products that sold the least**
 
 |StockCode|     Description|Quantity|
 |---------|-----------|--------|                      
@@ -113,7 +113,7 @@ https://docs.google.com/spreadsheets/d/14JpdZtBkG8mJtfRjrk01R-sQ1WPGgLJXKzZThHx-
 |90144|         SILVER DROP EARRINGS WITH FLOWER |     1|
 |84816|         DANISH ROSE BEDSIDE CABINET |          1|
 
-  - Products that generated the most revenue
+  - **Products that generated the most revenue**
 
 |StockCode|  Description| Revenue|  
 |---------|-----------|--------|    
@@ -123,7 +123,7 @@ https://docs.google.com/spreadsheets/d/14JpdZtBkG8mJtfRjrk01R-sQ1WPGgLJXKzZThHx-
 |84029E  |   RED WOOLLY HOTTIE WHITE HEART|       9291.73|
 |22086  |    PAPER CHAIN KIT 50'S CHRISTMAS    |     9208.10|
 
-  - Products that generated the least revenue
+  - **Products that generated the least revenue**
 
 |StockCode | Description  | Revenue|  
 |---------|-----------|---------| 
@@ -133,7 +133,7 @@ https://docs.google.com/spreadsheets/d/14JpdZtBkG8mJtfRjrk01R-sQ1WPGgLJXKzZThHx-
 |47422  |    ASSORTED MONKEY SUCTION CUP HOOK |   0.42|
 |10123C  |   HEARTS WRAPPING TAPE      |          0.65|
 
-  - Most popular times for purchase during the week
+  - **Most popular times for purchase during the week**
 
 |TimeOfDay|Orders|
 |---------|--------|
@@ -145,52 +145,45 @@ https://docs.google.com/spreadsheets/d/14JpdZtBkG8mJtfRjrk01R-sQ1WPGgLJXKzZThHx-
 
     Most purchases happened in the afternoon.
 
-### **Specific Product Analysis**
-
-We chose to analysis WORLD WAR 2 GLIDERS ASSTD DESIGNS because it had the most sale during the years.
-
-- Total Quantity Sold: 49756
-
-- Total Revenue Generated: 12639.88
-
-- Quantity Sold by Country
- 
-![image](https://github.com/user-attachments/assets/579a17fb-1603-42f2-acf2-40a0958ebc5a)
-
-- Quantity Sold by Month
-
-![image](https://github.com/user-attachments/assets/b7feb235-aca5-4de0-a409-0babc7ab18b9)
-
-- Quantity Sold by Day of Week
-
-![image](https://github.com/user-attachments/assets/71d2d4e0-00e7-43ff-87f9-faffebe54724)
-
-
-### **Geographical Analysis:**
+### **Geographical Analysis**
 
 ![image](https://github.com/user-attachments/assets/27d3d301-f0fc-47a0-9433-a8cac495d34e)
 
     United Kingdom dominates the total sale (85%), with much smaller contributions from other countries.
 
-### **Insights:**
+### **Customer Insights**
 
-- **Customer Insights:**
-
-    - **Holiday-Driven Buying Spikes:**
+- **Holiday-Driven Buying Spikes:**
         - Revenue and basket sizes peak in November, suggesting holiday shopping behavior (likely Christmas or end-of-year gifting).
         - Customers buy more items per receipt during this period, contributing to higher overall basket value.
 
-    - **Post-Holiday Drop:**
+- **Post-Holiday Drop:**
         - Revenue and average basket sizes drop significantly after the holidays (January-February).
         - Customers likely reduce spending after heavy end-of-year purchases.
 
-    - **Mid-Year Stability with Occasional Upticks:**
+- **Mid-Year Stability with Occasional Upticks:**
         - Revenue and basket sizes stabilize mid-year, with moderate increases in some months (likely linked to summer events or school breaks).
         - Certain products (e.g., lunch boxes, home décor) show cyclical demand.
 
-- **Recommendation**
+### **Specific Product Analysis**
 
+We chose to analysis WORLD WAR 2 GLIDERS ASSTD DESIGNS because it had the most sale during the years.
 
+- **Total Quantity Sold**: 49756
+
+- **Total Revenue Generated**: 12639.88
+
+- **Quantity Sold by Country**
+ 
+![image](https://github.com/user-attachments/assets/579a17fb-1603-42f2-acf2-40a0958ebc5a)
+
+- **Quantity Sold by Month**
+
+![image](https://github.com/user-attachments/assets/b7feb235-aca5-4de0-a409-0babc7ab18b9)
+
+- **Quantity Sold by Day of Week**
+
+![image](https://github.com/user-attachments/assets/71d2d4e0-00e7-43ff-87f9-faffebe54724)
 
 ## **Machine Learning Model**
 
