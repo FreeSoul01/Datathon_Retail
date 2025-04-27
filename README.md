@@ -205,7 +205,7 @@ We chose to analysis WORLD WAR 2 GLIDERS ASSTD DESIGNS because it had the most s
   
 - **For a specific country predict**
 
-  - We chose Channel Islands
+    We chose Channel Islands
 
     RMSE across folds: 253,118 | 321,810 | 618,233
     
