@@ -154,16 +154,16 @@ https://docs.google.com/spreadsheets/d/14JpdZtBkG8mJtfRjrk01R-sQ1WPGgLJXKzZThHx-
 ### **Customer Insights**
 
 - **Holiday-Driven Buying Spikes:**
-        - Revenue and basket sizes peak in November, suggesting holiday shopping behavior (likely Christmas or end-of-year gifting).
-        - Customers buy more items per receipt during this period, contributing to higher overall basket value.
+  - Revenue and basket sizes peak in November, suggesting holiday shopping behavior (likely Christmas or end-of-year gifting).
+  - Customers buy more items per receipt during this period, contributing to higher overall basket value.
 
 - **Post-Holiday Drop:**
-        - Revenue and average basket sizes drop significantly after the holidays (January-February).
-        - Customers likely reduce spending after heavy end-of-year purchases.
+  - Revenue and average basket sizes drop significantly after the holidays (January-February).
+  - Customers likely reduce spending after heavy end-of-year purchases.
 
 - **Mid-Year Stability with Occasional Upticks:**
-        - Revenue and basket sizes stabilize mid-year, with moderate increases in some months (likely linked to summer events or school breaks).
-        - Certain products (e.g., lunch boxes, home décor) show cyclical demand.
+  - Revenue and basket sizes stabilize mid-year, with moderate increases in some months (likely linked to summer events or school breaks).
+  - Certain products (e.g., lunch boxes, home décor) show cyclical demand.
 
 ### **Specific Product Analysis**
 
