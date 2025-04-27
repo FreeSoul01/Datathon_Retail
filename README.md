@@ -69,6 +69,38 @@ Your task is to answer one or more of the following questions from the three cat
   - What trends do you notice for the website with respect to time?
 
   - What are the peak sales periods for the business?
+ 
+Seasonal Revenue Trends by Hemisphere
+We separated countries into Northern Hemisphere and Southern Hemisphere groups to investigate the role of seasons in customer spending.
+
+Northern Hemisphere Countries included:
+United Kingdom, France, Germany, USA, etc.
+
+Southern Hemisphere Countries included:
+Australia, Brazil, South Africa (RSA), etc.
+
+Unspecified countries were dropped to avoid noise in the analysis.
+
+Two separate graphs were generated due to significant scale differences between North and South revenues.
+
+Observations:
+Northern Hemisphere
+Sales peak around September to November, corresponding with major holiday seasons (Halloween, Black Friday, Christmas).
+
+Lowest activity is observed in early months (February–March), likely post-holiday slowdowns.
+
+Southern Hemisphere
+Sales peak around June to August, corresponding to their winter season (mid-year shopping and holidays).
+
+Very low sales during December, indicating that Christmas does not drive as significant sales boosts compared to the Northern Hemisphere.
+
+Seasonality plays a major role in revenue cycles, but its effects are hemisphere-dependent.
+
+Marketing campaigns and inventory strategies must be localized:
+
+Northern Hemisphere should emphasize end-of-year holiday promotions.
+
+Southern Hemisphere should focus on mid-year promotions around June-August.
 
 - **Create a way to see a Monthly Analysis Report for a selected month and year that displays**
 
