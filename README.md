@@ -185,9 +185,9 @@ We chose to analysis WORLD WAR 2 GLIDERS ASSTD DESIGNS because it had the most s
 
 ![image](https://github.com/user-attachments/assets/71d2d4e0-00e7-43ff-87f9-faffebe54724)
 
-## **Machine Learning Model**
+## **Machine Learning Models**
 
-- **For a specific product (each one has a unique stock code) predict:**
+- **For a specific product**
 
     We chose WORLD WAR 2 GLIDERS ASSTD DESIGNS since it had the most sale and has a strong seasonality pattern. We used the exponancial smoothing model the predict futue sales. As we can see in the plot, the predictions roughly matche the yearly sales pattern of the product.
 
@@ -195,7 +195,7 @@ We chose to analysis WORLD WAR 2 GLIDERS ASSTD DESIGNS because it had the most s
 
 ![image](https://github.com/user-attachments/assets/67bcf5b5-4092-475e-ae9b-449ee83d1581)
 
-- **For the store as a whole predict:**
+- **For the store as a whole**
 
     RMSE across folds: 972,702 | 376,376 | 760,381
     
@@ -206,7 +206,7 @@ We chose to analysis WORLD WAR 2 GLIDERS ASSTD DESIGNS because it had the most s
     Total predicted store revenue: ≈ 3.37 million.
     The model captured general store revenue trends reasonably well. Some fluctuations exist (since retail has seasonality, promotions, holidays), but the model still gives useful ballpark forecasts.
   
-- **For a specific country predict:**
+- **For a specific country predict**
 
   - We chose Channel Islands
 
