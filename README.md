@@ -6,7 +6,7 @@ They want to view metrics from both operations and marketing perspectives and se
 
 This Datathon is your opportunity to delve into Modecraft's comprehensive data, uncover valuable insights, and develop innovative data-driven solutions that can propel their business to new heights.
 
-## 🗓️**Dataset Overview**
+## **Dataset Overview**
 
 **Download the Dataset here:**
 
