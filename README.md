@@ -58,6 +58,11 @@ https://docs.google.com/spreadsheets/d/14JpdZtBkG8mJtfRjrk01R-sQ1WPGgLJXKzZThHx-
 - The September to November build-up suggests early holiday shopping behavior or strategic campaigns leading up to year-end.
 - Consistent low points in May and early-year months indicate potential off-seasons.
 
+## Geographical Analysis
+
+![image](https://github.com/user-attachments/assets/27d3d301-f0fc-47a0-9433-a8cac495d34e)
+
+United Kingdom dominates the total sale (85%), with much smaller contributions from other countries.
 
 ## Seasonal Revenue Trends by Hemisphere
       
@@ -138,12 +143,6 @@ We separated countries into Northern Hemisphere and Southern Hemisphere groups t
 |14:59:00  |  646|
 
 Most purchases happened in the afternoon.
-
-## Geographical Analysis
-
-![image](https://github.com/user-attachments/assets/27d3d301-f0fc-47a0-9433-a8cac495d34e)
-
-United Kingdom dominates the total sale (85%), with much smaller contributions from other countries.
 
 ## Customer Insights
 
