@@ -1,4 +1,4 @@
-## **Retail: Accelerating the Sales of the Modecraft Ecommerce Store**
+# **Retail: Accelerating the Sales of the Modecraft Ecommerce Store**
 
 Modecraft (an anonymized real-world company) is an ecommerce store offering a wide range of household items such as mugs, cabinets, lanterns, etc. They have collected processed over 500,000  orders for a diverse global clientele as a business and have now hired you as a consultant to review their data and provide them with business recommendations.
 
@@ -6,7 +6,7 @@ They want to view metrics from both operations and marketing perspectives and se
 
 This Datathon is your opportunity to delve into Modecraft's comprehensive data, uncover valuable insights, and develop innovative data-driven solutions that can propel their business to new heights.
 
-## **Dataset Overview**
+## 🗓️**Dataset Overview**
 
 **Download the Dataset here:**
 
@@ -14,25 +14,25 @@ https://docs.google.com/spreadsheets/d/14JpdZtBkG8mJtfRjrk01R-sQ1WPGgLJXKzZThHx-
 
 **The dataset provided contains the following columns:**
 
-- InvoiceNo (Unique Invoice ID)
+- `InvoiceNo`: Unique Invoice ID
 
-- StockCode (Unique Product ID)
+- `StockCode`: Unique Product ID
 
-- Description (Product Name)
+- `Description`: Product Name
 
-- Quantity (Total Quantity of Product bought in that invoice)
+- `Quantity`: Total Quantity of Product bought in that invoice
 
-- InvoiceDate (Date and Time at which invoice was created)
+- `InvoiceDate`: Date and Time at which invoice was created
 
-- UnitPrice (Price of One Unit of that Product - in UK Pounds)
+- `UnitPrice`: Price of One Unit of that Product - in UK Pounds
 
-- CustomerID (Unique Customer ID)
+- `CustomerID`: Unique Customer ID
 
-- Country (Country from which order came)
+- `Country`: Country from which order came
 
-## **Data Analytics and Data Visualization**
+# 📊**Data Analytics and Data Visualization**
 
-### Seasonality Trends Analysis
+## Seasonality Trends Analysis
   
 ![image](https://github.com/user-attachments/assets/29d59c79-b785-4180-a066-2e7322955cdf)
 
@@ -44,18 +44,17 @@ https://docs.google.com/spreadsheets/d/14JpdZtBkG8mJtfRjrk01R-sQ1WPGgLJXKzZThHx-
 
     The quantity sold of REGENCY CAKESTAND 3 TIER has a obvious downward trend over the years.
 
-
 ![image](https://github.com/user-attachments/assets/d12beceb-04d0-424d-ba19-3a6e848c1db6)
 
-    - December spike likely driven by holiday season sales (e.g., Christmas shopping).
-    - January peak could be clearance sales or bulk buying after holidays.
-    - Summer (May–July) tends to have smaller basket sizes, potentially due to fewer shopping holidays or events.
+    December spike likely driven by holiday season sales (e.g., Christmas shopping).
+    January peak could be clearance sales or bulk buying after holidays.
+    Summer (May–July) tends to have smaller basket sizes, potentially due to fewer shopping holidays or events.
     
 ![image](https://github.com/user-attachments/assets/1a675c99-76fc-41be-afc9-e726d0bd3ca8)
 
-    - Peak in November highlights the importance of holiday-driven sales.
-    - The September to November build-up suggests early holiday shopping behavior or strategic campaigns leading up to year-end.
-    - Consistent low points in May and early-year months indicate potential off-seasons.
+    Peak in November highlights the importance of holiday-driven sales.
+    The September to November build-up suggests early holiday shopping behavior or strategic campaigns leading up to year-end.
+    Consistent low points in May and early-year months indicate potential off-seasons.
   
  <img width="802" alt="image" src="https://github.com/user-attachments/assets/1944127b-4ddc-4d21-a176-5a923b17c5b9" />
 
@@ -91,7 +90,7 @@ https://docs.google.com/spreadsheets/d/14JpdZtBkG8mJtfRjrk01R-sQ1WPGgLJXKzZThHx-
       
       Southern Hemisphere should focus on mid-year promotions around June-August.
 
-### **Monthly Analysis Report (December 2010)**
+## **Monthly Analysis Report (December 2010)**
 
   - **Products that sold the most**
 
@@ -145,13 +144,13 @@ https://docs.google.com/spreadsheets/d/14JpdZtBkG8mJtfRjrk01R-sQ1WPGgLJXKzZThHx-
 
     Most purchases happened in the afternoon.
 
-### **Geographical Analysis**
+## **Geographical Analysis**
 
 ![image](https://github.com/user-attachments/assets/27d3d301-f0fc-47a0-9433-a8cac495d34e)
 
     United Kingdom dominates the total sale (85%), with much smaller contributions from other countries.
 
-### **Customer Insights**
+## **Customer Insights**
 
 - **Holiday-Driven Buying Spikes:**
   - Revenue and basket sizes peak in November, suggesting holiday shopping behavior (likely Christmas or end-of-year gifting).
@@ -165,7 +164,7 @@ https://docs.google.com/spreadsheets/d/14JpdZtBkG8mJtfRjrk01R-sQ1WPGgLJXKzZThHx-
   - Revenue and basket sizes stabilize mid-year, with moderate increases in some months (likely linked to summer events or school breaks).
   - Certain products (e.g., lunch boxes, home décor) show cyclical demand.
 
-### **Specific Product Analysis**
+## **Specific Product Analysis**
 
 We chose to analysis WORLD WAR 2 GLIDERS ASSTD DESIGNS because it had the most sale during the years.
 
@@ -182,36 +181,38 @@ We chose to analysis WORLD WAR 2 GLIDERS ASSTD DESIGNS because it had the most s
 
 ![image](https://github.com/user-attachments/assets/71d2d4e0-00e7-43ff-87f9-faffebe54724)
 
-## **Machine Learning Models**
+# 📉**Forecast Models**
 
-- **For a specific product**
+## **For a specific product**
 
-    We chose WORLD WAR 2 GLIDERS ASSTD DESIGNS since it had the most sale and has a strong seasonality pattern. We used the exponancial smoothing model the predict futue sales. As we can see in the plot, the predictions roughly matche the yearly sales pattern of the product.
+We chose WORLD WAR 2 GLIDERS ASSTD DESIGNS since it had the most sale and has a strong seasonality pattern. We used the exponancial smoothing model the predict futue sales. As we can see in the plot, the predictions roughly matche the yearly sales pattern of the product.
 
-    The predicted next 3 months sale volumns are 1168 units, 2941 units, and 3330 units, with a total quantity of 7439 units and total revenue of about 2732.32.
+The predicted next 3 months sale volumns are 1168 units, 2941 units, and 3330 units, with a total quantity of 7439 units and total revenue of about 2732.32.
 
 ![image](https://github.com/user-attachments/assets/67bcf5b5-4092-475e-ae9b-449ee83d1581)
 
-- **For the store as a whole**
+## **For the store as a whole**
 
-    RMSE across folds: 972,702 | 376,376 | 760,381
+RMSE across folds: 972,702 | 376,376 | 760,381
     
-    Average CV RMSE ≈ 703,153, meaning the model’s typical error is around 700K in revenue prediction.
+Average CV RMSE ≈ 703,153, meaning the model’s typical error is around 700K in revenue prediction.
     
-    Prediction for Jan–Mar 2012:
+Prediction for Jan–Mar 2012:
     
-    Total predicted store revenue: ≈ 3.37 million.
-    The model captured general store revenue trends reasonably well. Some fluctuations exist (since retail has seasonality, promotions, holidays), but the model still gives useful ballpark forecasts.
+Total predicted store revenue: ≈ 3.37 million.
+
+The model captured general store revenue trends reasonably well. Some fluctuations exist (since retail has seasonality, promotions, holidays), but the model still gives useful ballpark forecasts.
   
-- **For a specific country predict**
+## **For a specific country predict**
 
-    We chose Channel Islands
+We chose Channel Islands
 
-    RMSE across folds: 253,118 | 321,810 | 618,233
+RMSE across folds: 253,118 | 321,810 | 618,233
     
-    Average CV RMSE ≈ 397,720, much lower than store-wide because UK is the majority market and more stable.
+Average CV RMSE ≈ 397,720, much lower than store-wide because UK is the majority market and more stable.
     
-    Prediction for Jan–Mar 2012:
+Prediction for Jan–Mar 2012:
     
-    Total predicted Channel Islands revenue: ≈ 3.58 million.
-.   Predicting this place alone is even more stable and reliable compared to predicting the global store. It drives overall revenue patterns.
+Total predicted Channel Islands revenue: ≈ 3.58 million.
+
+Predicting this place alone is even more stable and reliable compared to predicting the global store. It drives overall revenue patterns.
