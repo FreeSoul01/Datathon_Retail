@@ -181,7 +181,7 @@ We chose to analysis WORLD WAR 2 GLIDERS ASSTD DESIGNS because it had the most s
 
 ![image](https://github.com/user-attachments/assets/71d2d4e0-00e7-43ff-87f9-faffebe54724)
 
-# 📉**Forecast Models**
+# 📉**Forecast Modeling**
 
 ## **For a specific product**
 
