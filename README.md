@@ -203,7 +203,7 @@ Total predicted store revenue: ≈ 3.37 million.
 
 The model captured general store revenue trends reasonably well. Some fluctuations exist (since retail has seasonality, promotions, holidays), but the model still gives useful ballpark forecasts.
   
-## **For a specific country predict**
+## **For a specific country**
 
 We chose Channel Islands
 
